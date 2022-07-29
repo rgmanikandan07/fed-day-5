@@ -1,4 +1,54 @@
 .container{
+    width: 1312px;
+    margin: auto;
+    outline: solid 2px;
+}
+.mani-1{
     display: flex;
-    width: 1312px;   
+    justify-content: space-between;
+}
+.mani-2{
+    display: flex; 
+    outline: solid 2px;
+    justify-content: space-between;
+}
+.mani-3{
+    height: 724px;
+}
+.mani-4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 575px;
+}
+.image-content, .text-content{
+    width: 50%;
+    height: 575px;
+    outline: solid 2px;
+}
+.mani-4 .image-content img {
+    width: 100%;
+    height: 575px;
+}
+.one{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 60px;
+    justify-content: space-between;
+}.one .parag{
+    font-style: italic;
+    padding: 20px;
+}
+.ball{
+    font-size: 20px;
+}
+.cat{
+    padding-left: 200px;
+}
+.mani-5{
+    display: flex;
+    flex-wrap: wrap;
+}.mani-5 .box{
+    width: 33.33%;
+    height: 230px;
+    outline: solid 2px;
 }
