@@ -33,30 +33,50 @@
     font-weight: 800;
     padding-top: 60px;
     justify-content: space-between;
-}.one .parag{
+}
+.one .parag{
     font-style: italic;
     padding: 20px;
 } 
 .logo-finger{
-    font-size: 20px;
+    font-size: 30px;
+    color: lightskyblue;
     float: left;
     display: flex;
+    align-items: center;
     justify-content: center;
+    padding-left: 229px;
+    padding-top: 30px;
     border-radius: 6px;
     box-sizing: border-box;
-    background-color: #f1f7fb;
-    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.logo-gift{
+    font-size: 40px;
+    color: lightskyblue;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;   
 }
 .ball{
     font-size: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
 }
 .apple .ball{
-    padding: 30px;
-    padding-left: 40px;
+    padding: 30px; 
 }
-.cat{
-    padding-left: 235px;
+.apple .cat{
+    padding-left: 250px;
+    padding-right: 40px;
 }
 .mani-5{
     display: flex;
@@ -192,8 +212,59 @@
 }
 .numberbox .h4{
     padding: 0;
-    margin: 0;
-    
+    margin: 0;    
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
+.service{
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-list .service-box{
+    width: 395px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service-info .service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0px 0px 25px #607d8b;
+    text-align: center;
+    margin: 0 auto 25px;
+}
+.service-icon i{
+    font-size: 30px;
+    color: lightskyblue;
+}
+.service-text{
+    text-align: center;
+    padding-top: 10px;
+}
+.service-text h4{
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.service-text h4:hover{
+    color: lightskyblue;
+    cursor: pointer;
+    font-weight: 300;
+}
+.ser-hrl{
+    width: 60px;
+    height: 2px;
+    background-color: lightskyblue;
+    margin: 15px auto;
+}
+.service-box:hover .service-info .service-icon{
+    box-shadow: 0px 0px 25px lightskyblue;
+}
+
