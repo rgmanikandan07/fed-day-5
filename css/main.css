@@ -377,33 +377,155 @@
     background-color: #428bca;
     color:#fff;
 }
-.our-teams-list{
+.teamflex {
     display: flex;
     flex-wrap: wrap;
 }
-.our-teams-box{
+
+.teambox {
     width: 25%;
-    padding: 0 15px;
+    height: 400px;
+    background-color:#fff;
+    padding-left: 15px;
+    box-sizing: border-box;
+    
 }
-.our-teams-info{
+.teamhead h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #5c768d;
+
+}
+.teamhead p{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #444;
+}
+.teaminfo{
     position: relative;
 }
-.our-teams-info .our-teams-pic{
+.teaminfo .teampic{
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 4px;
 }
-.our-teams-info .our-teams-pic img{
+.teaminfo .teampic img {
     width: 100%;
     height: auto;
     display: block;
+    box-sizing: border-box;
 }
-.our-teams-content{
+.teampic:hover img{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.teamcontent{
     position: absolute;
-    bottom: -20;
-    left: 5%;
-    width: 90%;
-    background-color: rgba(0,0,0,0.41);
-    padding: 15px 20px;
+    bottom: -40px;
+    left: 20px;
+    right: 20px;
+    background:linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    padding: 15px 0px ;
     text-align: center;
+    border-radius: 4px;
+    color: #444444;
 }
-
+.teamcontent h5{
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.teamcontent .hrline{
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+    margin: 8px auto;
+    margin-bottom: 10px;
+    
+}
+.teamcontent p{
+    font-style: italic;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+.icons a:hover{
+    color: #1c5c93;
+}
+.icons a .icofont-instagram{
+    margin-right: 3px;
+}
+.faq{
+    /* background-color: #000; */
+    background-color: #a2bacf;
+}
+.headhr{
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    line-height: 80px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: #1f3548;
+    /* background-color: red; */
+    
+}
+.faq-head{
+    display: flex;
+}
+.faq-head{
+    width: 100%;
+    height: auto;
+    
+}
+.one-eq h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 450px;
+    padding-bottom: 0;
+    color: #5c768d;
+}
+.one1 h3{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: #1f3548;
+}
+.two-eq .h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: auto;
+    padding-left: 450px;
+    padding-bottom: 0;
+    color: #5c768d;
+}
+.two2 h3{
+    font-size: 20px;
+    line-height: auto;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: #1f3548;
+}
