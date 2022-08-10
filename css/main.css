@@ -7,11 +7,14 @@
     justify-content: space-between;
 }
 .quickcontact{
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px rgba(37, 36, 36, 0.829);
 }
 .info{
     padding-top: 10px;
     font-size: 20px;
+}
+.info i .easy{
+    color: #000;
 }
 .info i{
     color: #4288ca;
@@ -21,7 +24,7 @@
 }
 .info a{
     text-decoration: none;
-    color: #5c768d;
+    color: #535a60;
     padding-left: 10px;
     padding-right: 15px;
 }
@@ -32,9 +35,28 @@
 }
 .social-connect a{
     text-decoration: none;
+    padding: 10px;
+    color: #5c768d;
 }
 .social-connect a:hover{
     color: #4288ca;
+}
+.mamba-list .eee{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.mamba-list .eee li:nth-child(6){
+    position: relative;
+}
+.submenu,.submenu-2{
+    position: absolute;
+    z-index: 10;
+    background-color: #007aff;
+    width: 100%;
+}
+.mamba-list .eee > li{
+    display: inline-block;
 }
 .banner{
     width: 100%;
@@ -67,20 +89,23 @@
 .bg-content{
     position: absolute;
     top: 30%;
+    padding-left: 35px;
 }
 .bg-content a{
-    background-color: #4288ca;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
     font-size: 14px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
     border-radius: 5px;
+    transition: 0.5s;
     line-height: 1;
     margin: 10px;
-    margin-left: 50px;
+    margin-left: 60px;
     color: #fff;
-    border: 0;
     text-decoration: none;
+    background: #428bca
 }
 .bg-content p{
     padding-left: 50px;
@@ -108,13 +133,14 @@
     justify-content: space-between;
 }
 .header-flex{
-    padding-top: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header-flex .mamba-logo a{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 100;
     text-decoration: none;
-    color: #428bca;
+    color: #214564;
 }
 .mamba-list{
     display: flex;
@@ -187,8 +213,8 @@
 }
 
 .logo-finger {
-    font-size: 30px;
-    color: #75baf3;
+    font-size: 32px;
+    color: #428bca;
     float: left;
     display: flex;
     align-items: center;
@@ -218,8 +244,8 @@
     text-decoration: none;
 }
 .gift-logo {
-    font-size: 30px;
-    color: #75baf3;
+    font-size: 32px;
+    color: #428bca;
     float: left;
     display: flex;
     align-items: center;
@@ -687,7 +713,6 @@
     font-weight: 600;
     padding-top: 30px;
     margin-bottom: 15px;
-    color: #1f3548;
 }
 .two-eq{
     margin-left: 70px;
@@ -713,6 +738,7 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     margin-bottom: 20px;
+    box-shadow: 0 0 20px #9e9e9e;
 }
 .contact-flex .contact-box-1 {
     width: 48%;
