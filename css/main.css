@@ -1,4 +1,4 @@
-.container{
+ .container{
     width: 1275px;
     margin: auto;
 }
@@ -49,10 +49,31 @@
 .mamba-list .eee li:nth-child(6){
     position: relative;
 }
+.submenu{
+    background-color: black;
+    top: 140%;
+    border-radius: 5px;
+    box-shadow: 0 0 30px -10px black;
+    opacity: 0;
+}
+.submenu-2{
+    background-color: black;
+    top: 140%;
+    border-radius: 5px;
+    box-shadow: 0 0 30px -10px black;
+    opacity: 0;
+}
 .submenu,.submenu-2{
     position: absolute;
     z-index: 10;
-    background-color: #007aff;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #5c768d;
+    padding: 10px 0 10px 30px;
+    font-family: "Open Sans", sans-serif;
+    white-space: nowrap;
+    transition: 0.3s;
     width: 100%;
 }
 .mamba-list .eee > li{
@@ -373,6 +394,9 @@
     font-size: 15px;
     padding: 10px;
 }
+.Number section{
+    background-color: rgb(217, 235, 243);
+}
 .Number-list-box{
     display: flex;
 }
@@ -473,7 +497,7 @@
 .portfoliocontent h2{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 30px;
     padding-bottom: 20px;
     font-size: 32px;
@@ -484,15 +508,31 @@
     display: flex;
     text-align: center;
     padding-left: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     font-size:18px;
     font-weight: 400;
     color: #444;
 }
+.port-four{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.port-four .maniii{
+    font-size: 12px;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 12px;
+    border: none;
+}
+.port-four .maniii:hover{
+    background-color: #007aff;
+    color: white;
+}
 .portfolio-list  {
        display: flex;
        flex-wrap: wrap;
-    
 }
 .portfolio-list .portfoliobox{
     width: 33.33%;
@@ -672,68 +712,64 @@
     margin-right: 3px;
 }
 .faq{
-    /* background-color: #000; */
-    background-color: #d5e7f7;
+    background-color: #f5f9fc;
+}
+.faq-head{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 700px;
 }
 .headhr{
-    height: 80px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    line-height: 80px;
     font-size: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 800;
-    color: #1f3548;
-    /* background-color: red; */   
-}
-.faq-head{
-    display: flex;
-}
-.faq-head{
-    width: 100%;
-    height: auto;
-    padding-left: 30px; 
+    font-weight: 700;
+    color: #253f50;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .one-eq{
-    margin-left: 70px;
-    margin-bottom: 20px;
+    width: 50%;
 }
-.one-eq h2{
-    font-size: 32px;
+.one-eq h3{
+    font-size: 24px;
     font-weight: 600;
+    line-height: 25px;
     margin-bottom: 20px;
-    padding-left: 450px;
-    padding-bottom: 0;
-    color: #5c768d;
+    margin-top: 20px;
+    color: #1f3548;
+    font-family: "Raleway", sans-serif;
 }
-.one1 h3{
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 600;
-    padding-top: 30px;
-    margin-bottom: 15px;
+.one-eq p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 25px;
+    font-family: "open Sans",sans-serif;
+    color: #444;
+}
+.one2{
+    padding-top: 50px;
 }
 .two-eq{
-    margin-left: 70px;
+    width: 50%;
 }
-.two-eq .h3{
-    font-size: 32px;
+.two-eq h3{
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: auto;
-    padding-left: 450px;
-    padding-bottom: 0;
-    color: #5c768d;
-}
-.two2 h3{
-    font-size: 20px;
-    line-height: auto;
-    font-weight: 600;
-    padding-top: 37px;
-    margin-bottom: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: #1f3548;
+    font-family: "Raleway", sans-serif;
 }
-.contact-flex {
+.two-eq p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 25px;
+    font-family: "open Sans",sans-serif;
+    color: #444;
+}
+.contact-flex{
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
